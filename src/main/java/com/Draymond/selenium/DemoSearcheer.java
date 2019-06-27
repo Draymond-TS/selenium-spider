@@ -13,7 +13,7 @@ public class DemoSearcheer {
 
         //设置geckdriver
         System.setProperty("webdriver.gecko.driver", "E:\\Mozilla Firefox\\geckodriver.exe");
-        WebDriver driver ;driver = new FirefoxDriver();
+        WebDriver driver = new FirefoxDriver();
         driver.get("http://www.baidu.com");
 
 
