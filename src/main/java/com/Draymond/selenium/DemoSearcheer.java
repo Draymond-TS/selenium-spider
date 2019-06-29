@@ -52,7 +52,7 @@ public class DemoSearcheer {
 
     private static void choseOptions(WebDriver driver) {
         // 选择城市
-        String cityName = "广州";
+        String cityName = "北京";
         WebElement cityAuthorElement = driver.findElement(By.xpath("//div[@class='other-hot-city']//a[contains(text(),'" + cityName + "')]"));
         cityAuthorElement.click();
 
